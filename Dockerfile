@@ -8,4 +8,6 @@ RUN npm install
 
 COPY . .
 
+EXPOSE 5095
+EXPOSE 5099
 CMD ["node", "src/main.mjs"]
