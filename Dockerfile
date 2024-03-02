@@ -7,4 +7,4 @@ COPY . .
 # Install node deps
 RUN npm install
 
-CMD ["npm", "start"]
+CMD ["node", "src/main.mjs"]
